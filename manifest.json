@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Live DNS Site Autocomplete",
+  "version": "3.0",
+  "description": "Press Tab to look up and insert the real verified website link.",
+  "permissions": [],
+  "host_permissions": [
+    "https://cloudflare-dns.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
