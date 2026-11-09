@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Live DNS Site Autocomplete",
-  "version": "3.2",
+  "version": "3.3",
   "description": "Press Ctrl+Space after a bare word to insert its real website link.",
   "permissions": [],
   "host_permissions": ["https://cloudflare-dns.com/*"],
